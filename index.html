@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   </head>
   <body>
+    <!-- NAVBAR -->
     <header>
         <!-- HEADER -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -44,10 +45,11 @@
     </header>
     <!-- /HEADER -->
 
+    <!-- CARDS -->
     <!-- MAIN -->
     <main class="container-md">
         <div class="row column-gap-2 p-4">
-            <!-- aera principale -->
+            <!-- MAIN AREA -->
             <div class="col-lg-9">
                 <div class="row">
                     <div class="col">
@@ -57,7 +59,7 @@
                         <button class="col btn btn-primary">Aggiungi Libro</button>
                     </div>
                 </div>
-                <!-- TABELLA CATALOGO LIBRI -->
+                <!-- TABLE BOOCK -->
                 <div>
                     <table class="table table-striped table-hover">
                         <thead>
@@ -107,9 +109,13 @@
                     </table>
                 </div>
             </div>
+        
+            <!-- SPACE -->
             <div class="col-lg">
                 <div class="mb-4">
-                    <!-- todo list -->
+                    <!-- /SPACE -->
+                    
+                    <!-- TODO LIST-->
                     <div class="card">
                         <div class="card-header display-6">Todo</div>
                         <div class="card-body">
@@ -135,7 +141,7 @@
                                             <input class="form-check-input" type="checkbox" value=""
                                                 id="flexCheckDefault">
                                             <label class="form-check-label" for="flexCheckDefault">
-                                                lorem ipsum dolor sic.
+                                                lorem ipsum dolor sit.
                                             </label>
                                         </div>
 
@@ -145,10 +151,45 @@
                             </div>
                         </div>
                     </div>
+                    <!-- /TODO LIST -->
+
+                    <!-- FAQ -->
+                    <div class="card">
+                        <div class="card-header display-6">F.A.Q.</div>
+                        <div class="card-body">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Come aggiungere un nuovo libro?
+                                        </button>
+                                    </h2>
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Come aggiungere un nuovo libro?
+                                        </button>
+                                    </h2>
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Come aggiungere un nuovo libro?
+                                        </button>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /FAQ -->
                 </div>
             </div>
         </div>
     </main>
+    <!-- /MAIN -->
 
     <!-- questo deve stare in fondo al body -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
