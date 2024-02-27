@@ -1,0 +1,12 @@
+/* RESET BASE CSS */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.title {
+    padding: 20px;
+    text-align: center;
+    
+}
